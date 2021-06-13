@@ -1,0 +1,163 @@
+1623335277252	geckodriver	INFO	Listening on 127.0.0.1:50831
+1623335280299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileWpTM7i"
+1623335281232	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileWpTM7i\\search.json.mozlz4", (void 0)))
+1623335285497	Marionette	INFO	Listening on port 50839
+1623335285624	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WJZQSJF, line 4044: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofileWpTM7i\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623335386709	Marionette	INFO	Stopped listening on port 50839
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623335390795	geckodriver	INFO	Listening on 127.0.0.1:50935
+1623335393853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilebfyqML"
+1623335394627	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilebfyqML\\search.json.mozlz4", (void 0)))
+1623335398494	Marionette	INFO	Listening on port 50943
+1623335398702	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.30c260a832ba1f6d01a2.js, line 1: ChunkLoadError: Loading chunk 8193 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/8193.d62e1f68b12e359bb136.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.30c260a832ba1f6d01a2.js, line 1: ChunkLoadError: Loading chunk 8193 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/8193.d62e1f68b12e359bb136.js)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofilebfyqML\protections.sqlite
+1623335599648	Marionette	INFO	Stopped listening on port 50943
+1623335678287	geckodriver	INFO	Listening on 127.0.0.1:50001
+1623335681346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile9IyyXa"
+1623335681984	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile9IyyXa\\search.json.mozlz4", (void 0)))
+1623335685545	Marionette	INFO	Listening on port 50009
+1623335685678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623336212049	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1623336223015	Marionette	INFO	Stopped listening on port 50009
+1623416474722	geckodriver	INFO	Listening on 127.0.0.1:59212
+1623416477769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileawo6Zf"
+1623416478599	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileawo6Zf\\search.json.mozlz4", (void 0)))
+1623416482363	Marionette	INFO	Listening on port 59221
+1623416482565	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.44ec5b746bbfa8db0138.css without a browsingContextID set
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.warn: "Async method failed in safeAsyncMethod" (new 1623416956485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile7L2zwz"
+1623416957024	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile7L2zwz\\search.json.mozlz4", (void 0)))
+1623416960603	Marionette	INFO	Listening on port 50511
+1623416960669	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofile7L2zwz\protections.sqlite
+1623417579081	Marionette	INFO	Stopped listening on port 50511
+ls/shared/protocol/Front.js", 103))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofileawo6Zf\protections.sqlite
+1623416954425	Marionette	INFO	Stopped listening on port 59221
+1623417577243	geckodriver	INFO	Listening on 127.0.0.1:64268
+1623417580296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilefNS79E"
+1623417580970	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilefNS79E\\search.json.mozlz4", (void 0)))
+1623417584548	Marionette	INFO	Listening on port 64276
+1623417584596	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.11e5176423c261e125f0.js, line 1: ChunkLoadError: Loading chunk 1516 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/ProductPage.1652d3d9b963a15af55e.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.11e5176423c261e125f0.js, line 1: ChunkLoadError: Loading chunk 1516 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/ProductPage.1652d3d9b963a15af55e.js)
+1623417749762	Marionette	INFO	Stopped listening on port 64276
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623417752749	geckodriver	INFO	Listening on 127.0.0.1:58380
+1623417755811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilewLj14q"
+1623417756353	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilewLj14q\\search.json.mozlz4", (void 0)))
+1623417759729	Marionette	INFO	Listening on port 58388
+1623417759983	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.44ec5b746bbfa8db0138.css without a browsingContextID set
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: "Async method failed in safeAsyncMethod" (new 1623418055368	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileOs8fOa"
+1623418055915	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileOs8fOa\\search.json.mozlz4", (void 0)))
+1623418058717	Marionette	INFO	Listening on port 54648
+1623418059069	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.44ec5b746bbfa8db0138.css without a browsingContextID set
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:358:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle25 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: https://click.accesstrade.co.id/js/nct/lp.js, line 1: SyntaxError: redeclaration of const LP_UNIX_TIME_0_IN_GMT
+JavaScript error: https://click.accesstrade.co.id/js/nct/lp.js, line 1: SyntaxError: redeclaration of const LP_UNIX_TIME_0_IN_GMT
+JavaScript error: https://click.accesstrade.co.id/js/nct/lp.js, line 1: SyntaxError: redeclaration of const LP_UNIX_TIME_0_IN_GMT
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1623418422013	Marionette	INFO	Stopped listening on port 54648
+1623467776198	geckodriver	INFO	Listening on 127.0.0.1:64613
+1623467779254	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilejcrRBI"
+1623467780090	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilejcrRBI\\search.json.mozlz4", (void 0)))
+1623467783686	Marionette	INFO	Listening on port 64621
+1623467784120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623467959382	Marionette	INFO	Stopped listening on port 64621
+1623467969007	geckodriver	INFO	Listening on 127.0.0.1:60505
+1623467972059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileC1EBfS"
+1623467972606	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileC1EBfS\\search.json.mozlz4", (void 0)))
+1623467975473	Marionette	INFO	Listening on port 60513
+1623467975748	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.44ec5b746bbfa8db0138.css without a browsingContextID set
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2310))
+1623469430015	Marionette	INFO	Stopped listening on port 60513
+3468700436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileoL3jV8"
+1623468701036	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileoL3jV8\\search.json.mozlz4", (void 0)))
+1623468704667	Marionette	INFO	Listening on port 63067
+1623468704762	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofileoL3jV8\protections.sqlite
+1623469226602	Marionette	INFO	Stopped listening on port 63067
