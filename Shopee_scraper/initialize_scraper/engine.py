@@ -17,10 +17,11 @@ def engine(url):
     }
     #driver = webdriver.Chrome(executable_path = 'C:/Users/Rahadian/Documents/Python Scripts/chromedriver_win32/chromedriver.exe',
     #                           chrome_options = chrome_options)
-    driver = webdriver.Firefox(executable_path='C:/Users/Rahadian/Documents/Python Scripts/geckodriver-v0.29.1-win64/geckodriver.exe')
+    #driver = webdriver.Firefox(executable_path='C:/Users/Rahadian/Documents/Python Scripts/geckodriver-v0.29.1-win64/geckodriver.exe')
     # Using laptop
     #driver = webdriver.Chrome('/home/expiatio/Documents/chromedriver',
     #                          chrome_options=chrome_options)
+    driver = webdriver.Firefox(executable_path='/home/expiatio/Documents/geckodriver')
 
     driver.get(url=url)
     #response = driver.page_source

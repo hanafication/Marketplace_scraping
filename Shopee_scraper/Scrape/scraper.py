@@ -218,10 +218,10 @@ class listingsScrape:
         dataframe = pd.DataFrame()
         for i in self.combine():
             print(i)
-            df = pd.DataFrame.from_dict(i, index = False)
+            df = pd.DataFrame.from_dict([i])
             dataframe = dataframe.append(df, ignore_index=True)
 
-        return dataframe.to_csv('test.csv', index = False, sep = ';')
+        return dataframe.to_csv('test.csv', index = False, sep = ';'), dataframe.to_excel('test.xlsx')
 
 
 
