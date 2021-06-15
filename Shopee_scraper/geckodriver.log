@@ -1884,8 +1884,8 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.js
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileUp9GEp\\search.json.mozlz4", (void 0)))
 1623724603337	Marionette	INFO	Listening on port 60153
 1623724603430	Marionette	WARN	TLS certificate errors will be ignored for this session
-1623726216822	geckodriver	INFO	Listening on 127.0.0.1:62336
-1623726219877	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileMWV5AH"
+1623729438983	Marionette	INFO	Stopped listening on port 60153
+3726219877	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileMWV5AH"
 1623726220428	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileMWV5AH\\search.json.mozlz4", (void 0)))
 1623726223728	Marionette	INFO	Listening on port 62344
@@ -1925,3 +1925,219 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1623727655020	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Child 4112, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
 1623727752210	Marionette	INFO	Stopped listening on port 52875
+1623733177746	geckodriver	INFO	Listening on 127.0.0.1:56271
+1623733180816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile2eG0vh"
+1623733181715	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile2eG0vh\\search.json.mozlz4", (void 0)))
+1623733185225	Marionette	INFO	Listening on port 61177
+1623733185650	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle25 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: https://click.accesstrade.co.id/js/nct/lp.js, line 1: SyntaxError: redeclaration of const LP_UNIX_TIME_0_IN_GMT
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/layout.js", 502))
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/layout.js", 502))
+JavaScript error: https://click.accesstrade.co.id/js/nct/lp.js, line 1: SyntaxError: redeclaration of const LP_UNIX_TIME_0_IN_GMT
+1623741495247	Marionette	INFO	Stopped listening on port 61177
+e	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilemDQVxg\\search.json.mozlz4", (void 0)))
+1623733430980	Marionette	INFO	Listening on port 54780
+1623733431224	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.44ec5b746bbfa8db0138.css without a browsingContextID set
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623738183756	Marionette	INFO	Stopped listening on port 54780
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+pData\\Local\\Temp\\rust_mozprofileqVvNSa\\search.json.mozlz4", (void 0)))
+1623734013541	Marionette	INFO	Listening on port 57528
+1623734013793	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5224, IPC I/O Child] WARNING: pipe error: 232: file /1623734064150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileu1Om05"
+1623734064743	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileu1Om05\\search.json.mozlz4", (void 0)))
+1623734068655	Marionette	INFO	Listening on port 60412
+1623734068985	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofileu1Om05\protections.sqlite
+1623738187824	Marionette	INFO	Stopped listening on port 60412
+rofilemHNOVK"
+1623737905309	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilemHNOVK\\search.json.mozlz4", (void 0)))
+1623737909231	Marionette	INFO	Listening on port 61135
+1623737909644	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623738188776	Marionette	INFO	Stopped listening on port 61135
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileCADRod"
+1623738163030	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileCADRod\\search.json.mozlz4", (void 0)))
+1623738166797	Marionette	INFO	Listening on port 54647
+1623738166998	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofileCADRod\protections.sqlite
+1623739171307	Marionette	INFO	Stopped listening on port 54647
+rofile8RleqM"
+1623739024058	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile8RleqM\\search.json.mozlz4", (void 0)))
+1623739027557	Marionette	INFO	Listening on port 65170
+1623739027718	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofile8RleqM\protections.sqlite
+1623739170304	Marionette	INFO	Stopped listening on port 65170
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+o settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileH0RlrS\\search.json.mozlz4", (void 0)))
+1623739169133	Marionette	INFO	Listening on port 55994
+1623739169646	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623739638971	Marionette	INFO	Stopped listening on port 55994
+3739449069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilePHhOjX"
+1623739449559	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilePHhOjX\\search.json.mozlz4", (void 0)))
+1623739452466	Marionette	INFO	Listening on port 56134
+1623739452740	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623739638130	Marionette	INFO	Stopped listening on port 56131623739640820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile9ULZzH"
+1623739641311	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile9ULZzH\\search.json.mozlz4", (void 0)))
+1623739644111	Marionette	INFO	Listening on port 50062
+1623739644520	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofile9ULZzH\protections.sqlite
+1623740269817	Marionette	INFO	Stopped listening on port 50062
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+o settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilehoZel2\\search.json.mozlz4", (void 0)))
+1623739975936	Marionette	INFO	Listening on port 55676
+1623739976063	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofilehoZel2\protections.sqlite
+1623740108094	Marionette	INFO	Stopped listening on port 55676
+rofileITmeIU"
+1623740107564	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileITmeIU\\search.json.mozlz4", (void 0)))
+1623740110796	Marionette	INFO	Listening on port 55806
+1623740111310	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 6684, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623740270978	Marionette	INFO	Stopped listening on port 55806
+dian\\AppData\\Local\\Temp\\rust_mozprofile0Rnkuc\\search.json.mozlz4", (void 0)))
+1623740268891	Marionette	INFO	Listening on port 63205
+1623740269310	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofile0Rnkuc\protections.sqlite
+1623740892547	Marionette	INFO	Stopped listening on port 63205
+rofile2FaXdv"
+1623740652376	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile2FaXdv\\search.json.mozlz4", (void 0)))
+1623740656004	Marionette	INFO	Listening on port 55327
+1623740656053	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofile2FaXdv\protections.sqlite
+1623740891707	Marionette	INFO	Stopped listening on port 55327
+rofile8dN43a"
+1623740887934	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofile8dN43a\\search.json.mozlz4", (void 0)))
+1623740891301	Marionette	INFO	Listening on port 59002
+1623740891677	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofile8dN43a\protections.sqlite
+1623741411873	Marionette	INFO	Stopped listening on port 59002
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+o settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileDjOzK0\\search.json.mozlz4", (void 0)))
+1623741409178	Marionette	INFO	Listening on port 58133
+1623741409281	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofileDjOzK0\protections.sqlite
+1623741497646	Marionette	INFO	Stopped listening on port 58133
+1623741888600	geckodriver	INFO	Listening on 127.0.0.1:56451
+1623741891632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilefR4JWO"
+1623742328674	geckodriver	INFO	Listening on 127.0.0.1:64200
+1623742331691	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileKhyrCE"
+1623742332219	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileKhyrCE\\search.json.mozlz4", (void 0)))
+1623742335214	Marionette	INFO	Listening on port 64208
+1623742335402	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: services.settings: main/cfr-fxa sync interrupted by shutdown
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:327:69
+unregisterCommandsActor@chrome://marionette/content/actors/MarionetteCommandsParent.jsm:390:15
+GeckoDriver.prototype.deleteSession@chrome://marionette/content/driver.js:2335:3
+onClosed@chrome://marionette/content/server.js:194:17
+close@chrome://marionette/content/transport.js:225:18
+onInputStreamReady@chrome://marionette/content/transport.js:379:14
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteCommands'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1623742336823	Marionette	INFO	Stopped listening on port 64208
+1623742358312	geckodriver	INFO	Listening on 127.0.0.1:64480
+1623742361344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilebMavbq"
+1623742361821	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilebMavbq\\search.json.mozlz4", (void 0)))
+1623742364650	Marionette	INFO	Listening on port 64488
+1623742365037	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623743067783	Marionette	INFO	Stopped listening on port 64488
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileK5viN0"
+1623742678218	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileK5viN0\\search.json.mozlz4", (void 0)))
+1623742681071	Marionette	INFO	Listening on port 52663
+1623742681414	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1623742722276	Marionette	INFO	Stopped listening on port 52663
+1623742747744	geckodriver	INFO	Listening on 127.0.0.1:52774
+1623742750770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilePt6LTS"
+1623742751264	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilePt6LTS\\search.json.mozlz4", (void 0)))
+1623742754324	Marionette	INFO	Listening on port 52782
+1623742754463	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623742761926	Marionette	INFO	Stopped listening on port 52782
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623742773488	geckodriver	INFO	Listening on 127.0.0.1:52851
+1623742776519	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileCVP9uw"
+1623742777000	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileCVP9uw\\search.json.mozlz4", (void 0)))
+1623742779758	Marionette	INFO	Listening on port 52859
+1623742780192	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Rahadian\AppData\Local\Temp\rust_mozprofileCVP9uw\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623743066967	Marionette	INFO	Stopped listening on port 52859
+o settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofileFYfXr7\\search.json.mozlz4", (void 0)))
+1623743054196	Marionette	INFO	Listening on port 62508
+1623743054351	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WJZQSJF, line 3992: NS_ERROR_NOT_INITIALIZED: 
+1623743062807	Marionette	INFO	Stopped listening on port 62508
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
