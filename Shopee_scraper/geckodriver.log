@@ -2141,6 +2141,18 @@ JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-WJZQSJF, line 3
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1623748800126	geckodriver	INFO	Listening on 127.0.0.1:52252
+1623748803127	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilea7jYgq"
+1623748803912	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofilea7jYgq\\search.json.mozlz4", (void 0)))
+1623748807036	Marionette	INFO	Listening on port 52260
+1623748807337	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623748881464	Marionette	INFO	Stopped listening on port 52260
 1623757470879	geckodriver	INFO	Listening on 127.0.0.1:57063
 1623757470923	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXMFqrN"
 1623757481028	Marionette	INFO	Marionette enabled
@@ -2162,3 +2174,11 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1623758048393	Marionette	INFO	Listening on port 40485
 1623758048567	Marionette	WARN	TLS certificate errors will be ignored for this session
 1623759075471	Marionette	INFO	Stopped listening on port 40485
+1623821318380	geckodriver	INFO	Listening on 127.0.0.1:56679
+1623821321408	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofiles4gBEH"
+1623821322288	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rahadian\\AppData\\Local\\Temp\\rust_mozprofiles4gBEH\\search.json.mozlz4", (void 0)))
+1623821326199	Marionette	INFO	Listening on port 56687
+1623821326238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1623823621979	Marionette	INFO	Stopped listening on port 56687

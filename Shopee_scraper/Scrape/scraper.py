@@ -10,6 +10,29 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
+def get_urls_by_category(resp):
+    ''''
+    Getting all urls by category
+    '''
+    driver = resp
+
+    # Locating all url to be processed
+    scrape = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '._1-gCzV')))
+    sub_class = scrape.find_elements_by_xpath('//a[@data-sqe="link"]')
+    # Adding url into list of urls
+    urls = list()
+    for i in sub_class:
+        url = 'https://shopee.co.id/' + i.get_attribute('href')
+        urls.append(url)
+
+    return urls
+
+
+
+
+
+
+
 class listingsScrape:
     main_information = {'kategori' : {'tag' : 'a', 'class' : '._3YDLCj', 'get' : 'href', 'order' : 2},
                         'nama_produk' : {'tag' : 'div', 'class' : '.attM6y'},
@@ -222,20 +245,6 @@ class listingsScrape:
             dataframe = dataframe.append(df, ignore_index=True)
 
         return dataframe.to_csv('test.csv', index = False, sep = ';'), dataframe.to_excel('test.xlsx')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     def to_df(self, input_list):
         dataframe = pd.DataFrame.from_records(input_list)
