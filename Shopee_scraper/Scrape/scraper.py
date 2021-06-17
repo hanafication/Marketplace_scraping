@@ -1,3 +1,5 @@
+import os
+from multiprocessing import Pool
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
@@ -8,6 +10,7 @@ from selenium import webdriver
 import time
 import pandas as pd
 import requests
+from functools import partial
 from bs4 import BeautifulSoup
 
 def get_urls_by_category(resp):
@@ -22,10 +25,35 @@ def get_urls_by_category(resp):
     # Adding url into list of urls
     urls = list()
     for i in sub_class:
-        url = 'https://shopee.co.id/' + i.get_attribute('href')
+        url = r'{}'.format(i.get_attribute('href'))
         urls.append(url)
 
     return urls
+
+def shopee_scrape(total_product, resp):
+    '''
+    iterating base on total product
+    '''
+    target_product = list()
+    driver = resp
+    while len(target_product) < total_product:
+        urls = get_urls_by_category(resp = driver)
+        for i in urls:
+            target_product.append(i)
+        scrape = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, '.shopee-icon-button.shopee-icon-button--right')))
+        scrape.click()
+
+    return target_product
+
+def multiprocess_pool(driver, pools):
+    n_pool = os.cpu_count() // 2
+    resp = driver
+    func = partial(listingsScrape(), resp=resp)
+    with Pool(n_pool) as pool:
+        result = pool(func().combine(), pools)
+        pool.close()
+        pool.join()
+    return result
 
 
 
@@ -50,8 +78,8 @@ class listingsScrape:
 
 
 
-    def __init__(self,  resp):
-        #self.url = url
+    def __init__(self,  resp, url):
+        self.url = url
         self.resp = resp
 
 
@@ -60,7 +88,7 @@ class listingsScrape:
         Using selenium instead of bs4
         '''
         driver = self.resp
-        #driver.get(self.url)
+        driver.get(self.url)
         table = listingsScrape.main_information
         main_dict = dict()
 
