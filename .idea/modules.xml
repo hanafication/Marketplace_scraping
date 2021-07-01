@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../AirBnB/.idea/AirBnB.iml" filepath="$PROJECT_DIR$/../AirBnB/.idea/AirBnB.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Marketplace_scraping.iml" filepath="$PROJECT_DIR$/.idea/Marketplace_scraping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scrapping_task/.idea/scrapping_task.iml" filepath="$PROJECT_DIR$/../scrapping_task/.idea/scrapping_task.iml" />
     </modules>
   </component>
 </project>

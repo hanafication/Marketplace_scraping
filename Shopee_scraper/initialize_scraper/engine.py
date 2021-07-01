@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-def engine(url):
+def engine():
     ''''
     Initializing webdriver to get url
     '''
@@ -18,8 +18,10 @@ def engine(url):
     #driver = webdriver.Chrome(executable_path = 'C:/Users/Rahadian/Documents/Python Scripts/chromedriver_win32/chromedriver.exe',
     #                           chrome_options = chrome_options)
     try:
-        driver = webdriver.Firefox(executable_path='C:/Users/Rahadian/Documents/Python Scripts/geckodriver-v0.29.1-win64/geckodriver.exe')
-        driver.get(url=url)
+        options = webdriver.FirefoxOptions()
+        options.add_argument("--headless")
+        driver = webdriver.Firefox(executable_path='C:/Users/Rahadian/Documents/Python Scripts/geckodriver-v0.29.1-win64/geckodriver.exe', options=options)
+#        driver.get(url=url)
         return driver
     except:
 
@@ -27,7 +29,7 @@ def engine(url):
     #driver = webdriver.Chrome('/home/expiatio/Documents/chromedriver',
     #                          chrome_options=chrome_options)
         driver = webdriver.Firefox(executable_path='/home/expiatio/Documents/geckodriver')
-        driver.get(url=url)
+#        driver.get(url=url)
         return driver
     #response = driver.page_source
     #driver.implicitly_wait(30)

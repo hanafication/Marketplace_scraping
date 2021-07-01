@@ -1,11 +1,20 @@
 from initialize_scraper.engine import engine
-from Scrape.scraper import listingsScrape,get_urls_by_category, shopee_scrape, multiprocess_pool
-import pandas as pd
-total_product = int(input('Jumlah produk yang ingin discrape: '))
-driver = engine(url = 'https://shopee.co.id/Sepatu-Pria-cat.35')
-tests = shopee_scrape(total_product=total_product, resp=driver)
-test = multiprocess_pool(driver = driver, pools=tests)
-print(test)
+from Scrape.scraper import shopee_scrape, multiprocess
+import time
+
+if __name__ == '__main__':
+    total_product = int(input('Jumlah produk yang ingin discrape: '))
+    start_time = time.time()
+    driver = engine()
+    driver.get('https://shopee.co.id/search?keyword=tas')
+    tests = shopee_scrape(total_product=total_product, resp=driver)
+    driver.close()
+    print(tests)
+    multiprocess(tests)
+    print('Selesai Memproses Semua URL selama {} detik.'.format((time.time() - start_time)))
+    time.sleep(1.5)
+
+
 
 
 
