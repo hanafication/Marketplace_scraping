@@ -19,8 +19,8 @@ def engine():
     #                           chrome_options = chrome_options)
     try:
         options = webdriver.FirefoxOptions()
-        options.add_argument("--headless")
-        driver = webdriver.Firefox(executable_path='C:/Users/Rahadian/Documents/Python Scripts/geckodriver-v0.29.1-win64/geckodriver.exe', options=options)
+        #options.add_argument("--headless")
+        driver = webdriver.Firefox(executable_path='C:/Users/Rahadian/Documents/Python Scripts/geckodriver-v0.29.1-win64/geckodriver.exe')
 #        driver.get(url=url)
         return driver
     except:

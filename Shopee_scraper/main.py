@@ -1,5 +1,5 @@
 from initialize_scraper.engine import engine
-from Scrape.scraper import shopee_scrape, multiprocess
+from Scrape.scraper import shopee_scrape, multiprocess, pandas_csv
 import time
 
 if __name__ == '__main__':
@@ -9,8 +9,10 @@ if __name__ == '__main__':
     driver.get('https://shopee.co.id/search?keyword=tas')
     tests = shopee_scrape(total_product=total_product, resp=driver)
     driver.close()
-    print(tests)
-    multiprocess(tests)
+    #print(tests)
+    a = multiprocess(tests)
+    pandas_csv(a)
+
     print('Selesai Memproses Semua URL selama {} detik.'.format((time.time() - start_time)))
     time.sleep(1.5)
 

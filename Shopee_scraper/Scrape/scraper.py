@@ -278,17 +278,6 @@ class listingsScrape():
 
         return single_product_list
 
-    #def multiprocess_pool(self):
-    #    n_pool = os.cpu_count() // 2
-    #    with Pool(n_pool) as pool:
-    #        result = pool.map(self.combine(), self.url)
-    #    return result
-
-
-
-    def to_df(self, input_list):
-        dataframe = pd.DataFrame.from_records(input_list)
-        return dataframe
 
 def to_pandas_csv(urls):
     dataframe = pd.DataFrame()
@@ -301,10 +290,7 @@ def to_pandas_csv(urls):
     driver.close()
     print('Selesai Memproses Produk selama {} detik.'.format((time.time() - start_time)))
     ts = time.time()
-    path = 'C:/Users/Rahadian/PycharmProjects/Marketplace_scraping/Shopee_scraper/scrapped_dataset'
-    timenow = datetime.datetime.fromtimestamp(ts).strftime('%Y%m%d%H%M%S_%f')
-    return dataframe.to_csv(os.path.join(path, timenow + '-' + '.csv'),
-                            index=False, sep=';')
+    return dataframe
 
  #       return dataframe.to_csv('test.csv', index = False, sep = ';')
 
@@ -315,6 +301,14 @@ def multiprocess(urls):
         result = pool.map(to_pandas_csv, urls)
         pool.close()
         pool.join()
+    return result
+
+def pandas_csv(dfs):
+    df = pd.concat(dfs, ignore_index = True)
+    path = 'C:/Users/Rahadian/PycharmProjects/Marketplace_scraping/Shopee_scraper/scrapped_dataset'
+    timenow = datetime.datetime.fromtimestamp(ts).strftime('%Y%m%d%H%M%S_%f')
+    return df.to_csv(os.path.join(path, timenow + '-' + '.csv'), index=False, sep=';')
+
 
 
 
